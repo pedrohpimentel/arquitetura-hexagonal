@@ -12,7 +12,6 @@ public class Customer {
         this.isValidCpf = false;
     }
 
-
     public Customer(String id, String name, Adress adress, String cpf, Boolean isValidCpf) {
         this.id = id;
         this.name = name;
@@ -60,6 +59,4 @@ public class Customer {
     public void setValidCpf(Boolean validCpf) {
         isValidCpf = validCpf;
     }
-
-
 }

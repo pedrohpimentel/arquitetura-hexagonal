@@ -20,5 +20,4 @@ public class InsertCustomerUseCase {
         insertCustomerOutputPort.insert(customer);
 
     }
-
 }
