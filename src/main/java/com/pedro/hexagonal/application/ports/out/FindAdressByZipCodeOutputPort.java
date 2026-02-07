@@ -1,9 +1,9 @@
 package com.pedro.hexagonal.application.ports.out;
 
-import com.pedro.hexagonal.application.core.domain.Adress;
+import com.pedro.hexagonal.application.core.domain.Address;
 
 public interface FindAdressByZipCodeOutputPort {
 
-    Adress find (String zipCode);
+    Address find (String zipCode);
 
 }
